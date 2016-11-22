@@ -1,48 +1,59 @@
 .container {
- font-family: Roboto, Noto, sans-serif;
- width: 100px;
- margin: 0 auto;
- padding: 5px;
+  font-family: Roboto, Noto, sans-serif;
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px;
 }
+
 #batteryEnd {
- width: 15px;
+  width: 15px;
 }
+
 #batteryEnd div {
- width: 35px;
- height: 15px;
- margin-left: 30px;
- background-color: #CCC;
+  width: 35px;
+  height: 15px;
+  margin-left: 30px;
+  background-color: #CCC;
 }
+
 #batteryBody {
- width: 75px;
- height: 150px;
- border: 10px #CCC solid;
+  width: 75px;
+  height: 150px;
+  border: 10px #CCC solid;
 }
+
 #indicator {
- width: 100%;
- background-color: white;
+  width: 100%;
+  background-color: white;
 }
+
 #status {
- top: 80px;
- position: relative;
- text-align: center;
- width: 100%;
- font-size: 20px;
- font-weight: 400;
- display: block;
+  top: 80px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
 }
+
+
 .full {
 background-color: #BFFF00;
 }
+
 .good {
- background-color: #BDE24D;
+  background-color: #BDE24D;
 }
+
 .medium {
- background-color: #FFFF00;
+  background-color: #FFFF00;
 }
+
 .low {
- background-color: #FFC800;
+  background-color: #FFC800;
 }
+
 .empty {
- background-color: #FF5200;
+  background-color: #FF5200;
 }
